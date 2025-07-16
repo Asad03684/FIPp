@@ -1,0 +1,43 @@
+body{
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    background-image: url(pexels-photo-7130493\ -\ Shortcut.lnk);
+    background-size: cover;
+    }
+    h1{
+      text-align: center;}
+    h2{font-size: 200%;}
+     #para1{
+        font-size: 200%;
+        font-weight: bold;
+        border: thick double rgb(5, 5, 5);
+        border-radius: 15px;
+        font-family: 'Times New Roman', Times, serif;
+     }  
+     /*used CSS id selector(para1)*/
+     .color{
+        font-size: 170%;
+        border-left: 5px solid rgba(255, 0, 0, 0.418);
+
+     } 
+     /*used CSS class selector(color)*/
+
+   a:visited{
+      color: red;
+   }
+   a:hover{
+      color: blue;
+   }
+   th,td{
+      padding: 25px;
+   }
+   td{
+      text-align: start;
+   }
+   tr:nth-child(even){
+      background-color: rgba(128, 128, 128, 0.219)
+   }
+   @media (max-width: 768px)
